@@ -421,6 +421,8 @@ gap: 8px;}
 }
 
 #portfolio .fila .proyecto img {
+  max-width: 450px;
+  max-height: 450px;
   width: 100%;
   height: 100%;
   filter: grayscale(1);
@@ -443,7 +445,10 @@ gap: 8px;}
   bottom: -40px;
   transition: .5s;
 }
-
+a {
+  color: #efb810;
+  text-decoration: none;
+}
 #portfolio .fila .proyecto:hover .info {
   opacity: 1;
   bottom: 0;
